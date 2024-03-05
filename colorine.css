@@ -1,0 +1,65 @@
+body {
+    background-color: rgb(57, 153, 44);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1, h2, h3{
+    color: white;
+    text-align: center;
+}
+
+table {
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid black;
+    border-collapse: collapse;
+}
+
+td, tr {
+    text-align: center; 
+    font-size: larger;
+    padding: 8px;
+    border: 3px solid black;
+    border-collapse: collapse;
+}
+
+tr.ancho {
+    height: 100px;
+    background-color: rgb(94, 255, 0);
+}
+
+.child tr:nth-child(2n+1) {
+    background-color: rgb(255, 0, 0);
+}
+
+.mp14 {
+    background-color: rgb(255, 0, 0);
+}
+
+.mp07 {
+    background-color: rgb(243, 3, 95);
+}
+
+.mp04 {
+    background-color: grey;
+}
+
+.mp06 {
+    background-color: brown;
+}   
+
+.mp12 {
+    background-color: burlywood;
+}
+
+.mp10 {
+    background-color: cyan;
+}
+
+.mp08 {
+    background-color: darkgoldenrod;
+}
+
+.tdwhite {
+	background-color: paleturquoise;
+}
